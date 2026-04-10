@@ -21,7 +21,7 @@ const hamburger = {
     ingredients: ["Cheese", "Meat", "Bread", "Tomato"]
 };
 
-const secondBurger = { ...hamburger };
+const secondBurger = { ...hamburger }; // Non riporta l'array annidato in modo individuale!!!
 secondBurger.ingredients[0] = "Salad";
 
 console.log(hamburger.ingredients[0]); // "Salad"
@@ -29,3 +29,4 @@ console.log(secondBurger.ingredients[0]); // "Salad"
 
 //Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
 //Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+//Sono stati creati due oggetti
