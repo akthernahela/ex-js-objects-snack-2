@@ -76,4 +76,6 @@ const restaurant = {
 };
 
 //Qual è il metodo migliore per clonare l’oggetto chef, e perché?
+//Metodo spread (...) perchè copia anche la funzione.
 //Qual è il metodo migliore per clonare l’oggetto restaurant, e perché ?
+//Metodo structuredClone() perchè non cambia il tipo della openingDate.
